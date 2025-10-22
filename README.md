@@ -32,10 +32,11 @@ npm install
 
 3. **Configure env variables:**
 
-Create a `config/.env` file:
+Create a `config/.env` or rename `config/.env.example` to `config/.env`:
 ```env
 APP_PORT=
 API_URL=
+MAX_RESULTS=
 MIN_PRICE=
 MAX_PRICE=
 ```
